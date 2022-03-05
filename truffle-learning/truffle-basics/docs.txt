@@ -1,0 +1,8 @@
+truffle develop
+truffle compile
+truffle build
+truffle compile --reset
+testnet // testing deployment platform
+moralis // use to generate live blockchain nodes
+npx mnemonics ## to generate public key which would be use to deploy your contracts
+https://www.moonborrow.com/
