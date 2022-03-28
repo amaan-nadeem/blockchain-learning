@@ -1,4 +1,4 @@
-const cryptoHash = require("./crypto-hash");
+const cryptoHash = require("../blockchain-logic/crypto-hash");
 
 describe("cryptoHash()", () => {
   it("returns a SHA-256 hashed string", () => {

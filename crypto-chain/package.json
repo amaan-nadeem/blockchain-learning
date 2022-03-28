@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,9 @@
     "jest": "23.6.0"
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "hex-to-binary": "^1.0.1",
+    "nodemon": "^2.0.15"
   }
 }
